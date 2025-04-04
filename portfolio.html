@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!--HOME PAGE-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- About-->
+    <section id="about">
+        <h2>About Me</h2>
+        <img scr ="IMG-20241123-WA0034.jpg">
+        <p>Hello! I'm Micky Mwangi, a passionate student in mechanical engineering and with God's Grace a software engineer in a couple months. I love engage with people, learning new skills and challenging myself to do new things and am driven by the desire to make an impact in this world using my skills and make the world a better place in general.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Programming Languages</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+            <li>C++</li>
+        </ul>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Educational Background</h2>
+        <p>I am currently pursuing a Bachelor's degree in Mechanical and Manufacturing Engineering at the University Of Nairobi.</p>
+        <p>Graduation Year: 2028</p>
+        <a href="CV.pdf" download>Download My CV</a>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <a href="https://github.com/Currybroketherecord/CSS-week2.git">Project 1: Introduction to CSS</a> - Created an accessible webpage using HTML5 then used CSS to design it by create tables images and contacts.
+            </li>
+            <li>
+                <a href="https://github.com/Currybroketherecord/Python-week1.git">Project 2: Calclutator application</a> - Used python to create a simple calculator application that performs basic arithmetic operations.
+           
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch, please fill out the form below:</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Micky. All rights reserved.</p>
+    </footer>
+</body>
+</html>
